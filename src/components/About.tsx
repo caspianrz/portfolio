@@ -15,11 +15,11 @@ const items = [
 
 export default function About() {
     return (
-        <section id="about" className="h-screen snap-start px-6 py-24">
+        <section id="about" className="snap-start px-6 py-24">
             <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight gradient-text text-center mb-12">
                 About Me
             </h2>
-            <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div className="max-w-5xl mx-auto grid gap-12 items-center">
                 <div>
                     <h2 className="text-4xl font-extrabold">
                         Problem solver &lt;coder&gt;
@@ -36,15 +36,6 @@ export default function About() {
                             </li>
                         ))}
                     </ul>
-                </div>
-
-                {/* swap this for your own portrait */}
-                <div className="flex justify-center">
-                    <img
-                        src="./portrait.png"
-                        alt="Portrait"
-                        className="max-h-[420px] object-contain"
-                    />
                 </div>
             </div>
         </section>

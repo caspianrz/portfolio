@@ -31,7 +31,7 @@ const skillGroups = [
 
 export default function Skills() {
     return (
-        <section id="skills" className="h-screen snap-start py-24 px-6">
+        <section id="skills" className="snap-start py-24 px-6">
             <div className="max-w-4xl mx-auto">
                 <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight gradient-text text-center mb-12">
                     Skills

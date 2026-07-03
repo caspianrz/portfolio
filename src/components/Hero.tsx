@@ -3,7 +3,7 @@ const techStack = ["C/C++", "C#", "Game Development", "Frontend Development", "B
 
 export default function Hero() {
   return (
-      <section id="home" className="h-screen snap-start pt-40 pb-24 px-6 text-center">
+      <section id="home" className="snap-start pt-40 pb-24 px-6 text-center">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight gradient-text">
           {jobTitle}
